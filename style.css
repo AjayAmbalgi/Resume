@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+header .user img{
+    opacity: 100;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+   
+}
+body{
+    position: relative;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 35rem;
+  
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #000000;
+}
+
+.heading span{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.title span{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.head span{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url(pexels-hasan-albari-1229861.jpg);
+    background-size:cover;
+    background-position: top center;
+    opacity: 0.76;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #ffffff;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: #ffffff;
+    box-shadow: #fff;
+}
+
+header .nv{
+    width: 100%;
+    
+}
+header .nv ul{
+    
+    list-style: none;
+    padding: 1rem ;
+}
+
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #ffffffd6;
+    color: #000000;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    box-shadow: 0 0 5px rgba(91, 57, 57, 0.721), 0 0 25px rgba(91, 57, 57, 0.721), 0 0 50px rgba(91, 57, 57, 0.721), 0 0 100px rgba(91, 57, 57, 0.721),
+    0 0 200px rgba(91, 57, 57, 0.721);
+    background-color:rgba(133, 84, 84, 0.781);
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+
+.Details .Row .det h3{
+    position: relative;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.872);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Details .Row .det h3 span{
+    position: relative;
+    color: #000000ed;
+    padding: 0. 5rem;
+}
+table,th,td{
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+td{
+    position: relative;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 1rem;
+}
+th{
+    position: relative;
+    color: rgba(0, 0, 0, 0.84);
+    padding: 1rem;
+}
+table{
+    position: relative;
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid rgba(5, 0, 0, 0.267);
+    color: #ffffffec;
+}
+#lis li{
+    position: relative;
+    margin: 0 9rem;
+    color: rgba(255, 255, 255, 0.911);
+    font-size: 20px;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    position: relative;
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    position: relative;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 1.2rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    position: relative;
+    color: #000000;
+    padding: 0. 6rem;
+}
+.Details{
+    text-align: start;
+}
